@@ -55,6 +55,7 @@ nav span.btn-like-signup{
        border: 2px solid #2486FD;
        border-radius: 4px;
        padding: 5px 10px;
+       line-height: 20px;
        margin-top: 8px;
        margin-bottom: 8px;
 }
