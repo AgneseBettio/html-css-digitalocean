@@ -30,10 +30,35 @@ span.circle{
 /* navbar */
 .navbar-personalized{
     margin-bottom: 0;
+}
+.navbar-personalized a{
     color: #092252;
 }
-
+.navbar-toggle>.icon-bar{
+    background-color: #2486FD; 
+}
+a.navbar-brand{
+    color: #2486FD; 
+    line-height: 50px;
+    padding: 0 15px;
+}
 .navbar-brand>img{
     display: inline-block;
     width: 30px;
+    margin-right: 5px;
 }
+.l-extra-margin{
+    margin-left: 100px;
+}
+nav span.btn-like-signup{
+       display: inline-block;
+       border: 2px solid #2486FD;
+       border-radius: 4px;
+       padding: 5px 10px;
+       margin-top: 8px;
+       margin-bottom: 8px;
+}
+nav span.btn-like-signup>a{
+    color: #2486FD;
+}
+
