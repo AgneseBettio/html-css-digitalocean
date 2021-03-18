@@ -10,5 +10,9 @@
 .bg-hero{
     background-image: url(img/bg-banner-home.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+section{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
