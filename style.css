@@ -1,0 +1,14 @@
+.bg-grey{
+    background-color: #F3F5F9;
+}
+.bg-blue{
+    background-color: #0042C0;
+}
+.bg-darker-blue{
+    background-color: #031C4E;
+}
+.bg-hero{
+    background-image: url(img/bg-banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
