@@ -1,3 +1,4 @@
+/* bg e classi generiche */
 .bg-grey{
     background-color: #F3F5F9;
 }
@@ -25,4 +26,14 @@ span.circle{
     width: 10px;
     border-radius: 50%;
     border: 1px solid blue;
+}
+/* navbar */
+.navbar-personalized{
+    margin-bottom: 0;
+    color: #092252;
+}
+
+.navbar-brand>img{
+    display: inline-block;
+    width: 30px;
 }
