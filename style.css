@@ -20,13 +20,16 @@ section{
 .inline-block{
     display: inline-block;
 }
+.d-inline{
+    display: inline;
+}
 .p-relative{
     position:relative;
 }
 span.circle{
     display: inline-block;
-    height: 10px;
-    width: 10px;
+    height: 12px;
+    width: 12px;
     border-radius: 50%;
     border: 1px solid #0042C0;;
 }
@@ -54,6 +57,9 @@ span.circle:hover{
 }
 .t-10px{
     margin-top:10px;
+}
+main a:hover{
+    text-decoration: none;
 }
 /* navbar */
 .navbar-personalized{
@@ -166,9 +172,10 @@ img.partners-img{
 .img-s-box>img{
     width: 100%;
 }
+/* layout-slider */
 .slide,
 .select-slides{
-    width: calc(100% - 150px);
+    width: calc(100% - 120px);
     margin-left:60px;
 }
 .slider .arrow{
@@ -181,4 +188,10 @@ img.partners-img{
 }
 .slider .img-slide-box img{
     width: 100%;
+}
+.p-more:after {
+    content:' \003E';
+    font-size: x-small;
+    margin-left: 10px;
+    font-weight: bold;
 }
