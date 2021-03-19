@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>DigitalOcean</title>
 </head>
@@ -155,7 +156,7 @@
                                        <p class="grey-dark-style">Get the compute resources you need with Standard or Optimized Droplet</p>
                                     </div>
                                     <!-- PERCHè NON MI FUNZIONA IL CLEARFIX se lo metto solo sm?-->
-                                    <div class="clearfix visible-sm-block clearfix visible-lg-block"></div>
+                                    <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
                                     <div class="col-sm-6">
                                         <div class="img-s-box">
                                             <img src="img/one-click.svg" alt="cluster">
@@ -181,28 +182,34 @@
         <!-- design for developers  -->
         <section class="bg-grey">
             <div class="container">
-                <h2><strong>Designed for developers</strong></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eos necessitatibus vitae.</p>
+                <div class="text-center">
+                <h2 class="blue-style"><strong>Designed for developers</strong></h2>
+                <p class="grey-dark-style lead">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                </div>
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1">
-                        <div class="slider-box"> 
+                        <div class="slider p-relative"> 
                             <!-- !fissa width 3 elementi div  -->
-                            <div class="arrow inline-block">
-                                freccia
+                            <div class="arrow inline-block grey-dark-style">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
                             </div>
-                            <div class="slider inline-block">
-                                <!-- img+p -->
-                                slide
+                            <div class="slide inline-block center-block">
+                                <div class="img-slide-box">
+                                    <img src="img/slide.jpg" alt="explanatory tool slide">
+                                </div>
+                                <div class="img-slide-info">
+                                    <p class="blue-style text-center t-10px">Create coumputer server in 50 secs or less</p>
+                                </div>
                             </div>
-                            <div class="arrow inline-block">
-                                freccia
+                            <div class="arrow inline-block blue-style">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <div class="select-slides">
-                            <span class="circle selected-circle"></span>
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                            <span class="circle"></span>
+                        <div class="select-slides text-center">
+                            <a href="#"><span class="circle selected-circle"></span></a></span>
+                            <a href="#"><span class="circle"></span></a></span>
+                            <a href="#"><span class="circle"></span></a></span>
+                            <a href="#"><span class="circle"></span></a></span>
                         </div>
                     </div>
                 </div>                
