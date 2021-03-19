@@ -153,3 +153,10 @@ img.partners-img{
     text-decoration: none;
     color: #9FA7B9;
 }
+.img-s-box{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.img-s-box>img{
+    width: 100%;
+}
