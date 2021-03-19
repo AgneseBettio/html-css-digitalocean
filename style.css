@@ -20,6 +20,9 @@ section{
 .inline-block{
     display: inline-block;
 }
+.p-relative{
+    position:relative;
+}
 span.circle{
     display: inline-block;
     height: 10px;
@@ -27,6 +30,23 @@ span.circle{
     border-radius: 50%;
     border: 1px solid blue;
 }
+/* text colors */
+.white-style{
+    color: #ffffff;
+}
+.grey-light-style{
+    color: #F3F5F9;
+}
+.grey-dark-style{
+    color:#9FA7B9;
+}
+.light-blue-style{
+    color: #2486FD;
+}
+.blue-style{
+    color: #092252;
+}
+
 /* navbar */
 .navbar-personalized{
     margin-bottom: 0;
@@ -51,15 +71,57 @@ a.navbar-brand{
     margin-left: 100px;
 }
 nav span.btn-like-signup{
-       display: inline-block;
-       border: 2px solid #2486FD;
-       border-radius: 4px;
-       padding: 5px 10px;
-       line-height: 20px;
-       margin-top: 8px;
-       margin-bottom: 8px;
+    display: inline-block;
+    border: 2px solid #2486FD;
+    border-radius: 4px;
+    padding: 5px 10px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 nav span.btn-like-signup>a{
     color: #2486FD;
+}
+/* hero */
+.hero-title-wrap{
+}
+.panel-get-started{
+    margin-bottom: 15px;
+    margin-top:15px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 20px 10px;
+}
+.panel-get-started .form-group input::placeholder{
+    font-weight: bold;
+}
+.btn-create{
+    background-color: rgba(36, 134, 253, 0.7);
+}
+.btn-create:hover{
+    background-color: #2486fd;
+    color: #ffffff;
+}
+.btn-sign-up{
+    background-color: white;
+    border: 1px solid #F3F5F9;
+    box-shadow: 0px 2px 2px #F3F5F9;
+}
+form span.g-logo{
+    display: inline-block;
+    width: 16px;
+    position:absolute;
+    left:12px;
+}
+form span.g-logo>img{
+    width: 100%;
+    vertical-align: middle;   
+}
+form>p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
 }
 
