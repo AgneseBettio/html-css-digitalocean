@@ -91,8 +91,6 @@ nav span.btn-like-signup>a{
     color: #2486FD;
 }
 /* hero */
-.hero-title-wrap{
-}
 .panel-get-started{
     margin-bottom: 15px;
     margin-top:15px;
@@ -168,7 +166,8 @@ img.partners-img{
 .img-s-box>img{
     width: 100%;
 }
-.slide{
+.slide,
+.select-slides{
     width: calc(100% - 150px);
     margin-left:60px;
 }
