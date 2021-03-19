@@ -195,3 +195,8 @@ img.partners-img{
     margin-left: 10px;
     font-weight: bold;
 }
+.cities-data-list li{
+    border-bottom: 1px solid #ffffff;
+    margin-top:10px;
+    
+}
