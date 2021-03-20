@@ -3,7 +3,7 @@
     background-color: #F3F5F9;
 }
 .bg-blue{
-    background-color: #0042C0;
+    background-color: #002CA7;
 }
 .bg-darker-blue{
     background-color: #031C4E;
@@ -12,6 +12,9 @@
     background-image: url(img/bg-banner-home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-white{
+    background-color: #ffffff;
 }
 section{
     padding-top: 25px;
@@ -28,8 +31,8 @@ section{
 }
 span.circle{
     display: inline-block;
-    height: 12px;
-    width: 12px;
+    height: 10px;
+    width: 10px;
     border-radius: 50%;
     border: 1px solid #0042C0;;
 }
@@ -151,7 +154,7 @@ img.partners-img{
     }
 }
 .list-group-a-item{
-    border-left: 1px solid #9FA7B9;
+    border-left: 1px solid #9fa7b9;
     position: relative;
     display: block;
     padding: 10px 15px;
@@ -186,8 +189,29 @@ img.partners-img{
     font-size: 20px;  
     text-align: center;
 }
-.slider .img-slide-box img{
+.slider .img-slide-box img.full-screen-box{
     width: 100%;
+}
+.slider .img-slide-box img.percentage-screen-box{
+    width: calc(100% - 25%);
+    padding-top:10px;
+}
+/* > padding slider-2 */
+.screen-alike{
+    padding: 30px 15px 20px 15px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+@media all and (min-width: 992px) {
+   .lg-slide{
+      height: 400px;
+  }
+}
+@media all and (max-width: 991px){
+    .sm-slide{
+        height: 250px;
+    }
+
 }
 .p-more:after {
     content:' \003E';
@@ -197,6 +221,21 @@ img.partners-img{
 }
 .cities-data-list li{
     border-bottom: 1px solid #ffffff;
-    margin-top:10px;
-    
+    margin-top:10px;    
+}
+.list-group li:last-of-type{
+    border-bottom: none;
+}
+.cities-data-list li a{
+    color:#05c7c6;
+}
+.cities-data-list li a:hover{
+    color:#05c7c6;
+    background-color: rgba(159, 167, 185, 0.3);
+    border-radius: 4px;
+    padding:3px 0 3px 3px;
+}
+span.post-code{
+    min-width: 50px;
+    margin-right:10px;   
 }
