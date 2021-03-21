@@ -273,7 +273,7 @@ footer a:hover {
     height: 45px;
     border-radius: 4px;
 }
-.shark-icon-box>img{
+.shark-icon-box a >img{
     width: 100%;
     position: absolute;
     bottom: 5px;
@@ -294,8 +294,10 @@ footer a:hover {
     right: -5px;
 }
 .instant-chat{
-    /* position: fixed;
-    z-index: 2; */
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    z-index: 1;
 
 }
 .auto-msn{
@@ -321,4 +323,9 @@ footer a:hover {
 }
 .shark-icon-box {
     vertical-align: bottom;
+}
+@media all and (min-width: 992px){
+    footer{
+    padding-bottom: 50px;
+    }
 }
