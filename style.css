@@ -16,7 +16,7 @@
 .bg-white{
     background-color: #ffffff;
 }
-section{
+section, footer{
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -96,6 +96,9 @@ nav span.btn-like-signup{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+nav span.btn-like-signup a:hover{
+    text-decoration: none;
+}
 nav span.btn-like-signup>a{
     color: #2486FD;
 }
@@ -149,8 +152,7 @@ img.partners-img{
 }
 @media all and (min-width: 768px) {
     ul.partners-list li {
-        width: 15%;
-      
+        width: 15%;  
     }
 }
 .list-group-a-item{
@@ -204,14 +206,8 @@ img.partners-img{
 }
 @media all and (min-width: 992px) {
    .lg-slide{
-      height: 400px;
+        height: 400px;
   }
-}
-@media all and (max-width: 991px){
-    .sm-slide{
-        height: 250px;
-    }
-
 }
 .p-more:after {
     content:' \003E';
@@ -238,4 +234,29 @@ img.partners-img{
 span.post-code{
     min-width: 50px;
     margin-right:10px;   
+}
+.btn-b{
+    background-color: #ffffff;
+    color:#2486fd;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    margin-top:15px;
+}
+.btn-b:hover{
+    color: #092252;
+    background-color: #F3F5F3;
+}
+/* footer */
+footer .social-icon-box i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+footer .footer-logo{
+    width: 30px;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #F3F5F9;
+    font-weight: bold;
 }
