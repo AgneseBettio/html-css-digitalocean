@@ -1,3 +1,7 @@
+/* font-family */
+ body *{
+    font-family: 'Inter', sans-serif;
+}
 /* bg e classi generiche */
 .bg-grey{
     background-color: #F3F5F9;
@@ -29,6 +33,13 @@ section, footer{
 .p-relative{
     position:relative;
 }
+.t-10px{
+    margin-top:10px;
+}
+main a:hover{
+    text-decoration: none;
+}
+/* cerchio */
 span.circle{
     display: inline-block;
     height: 10px;
@@ -57,12 +68,6 @@ span.circle:hover{
 }
 .blue-style{
     color: #092252;
-}
-.t-10px{
-    margin-top:10px;
-}
-main a:hover{
-    text-decoration: none;
 }
 /* navbar */
 .navbar-personalized{
@@ -101,6 +106,9 @@ nav span.btn-like-signup a:hover{
 }
 nav span.btn-like-signup>a{
     color: #2486FD;
+}
+.glyphicon-menu-down:before{
+    font-size: smaller;
 }
 /* hero */
 .panel-get-started{
@@ -144,11 +152,9 @@ form>p{
 }
 ul.partners-list li {
     width: 40%;
-
 }
 img.partners-img{
     width: 100%;
-
 }
 @media all and (min-width: 768px) {
     ul.partners-list li {
@@ -215,6 +221,7 @@ img.partners-img{
     margin-left: 10px;
     font-weight: bold;
 }
+/* tabella */
 .cities-data-list li{
     border-bottom: 1px solid #ffffff;
     margin-top:10px;    
@@ -235,6 +242,7 @@ span.post-code{
     min-width: 50px;
     margin-right:10px;   
 }
+/* last section btn */
 .btn-b{
     background-color: #ffffff;
     color:#2486fd;
@@ -329,3 +337,9 @@ footer a:hover {
     padding-bottom: 50px;
     }
 }
+
+
+
+
+
+
