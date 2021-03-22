@@ -91,9 +91,6 @@ a.navbar-brand{
     display: inline-block;
     width: 150px;
 }
-.l-extra-margin{
-    margin-left: 100px;
-}
 nav span.btn-like-signup{
     display: inline-block;
     border: 2px solid #2486FD;
@@ -111,6 +108,20 @@ nav span.btn-like-signup>a{
 }
 .glyphicon-menu-down:before{
     font-size: smaller;
+}
+
+@media (min-width: 768px){
+    .sm-display{
+        font-size: 8px;
+    }
+}
+@media (min-width: 992px){
+    .lg-display{
+        font-size: 12px;
+    }
+    .lg-extra-margin{
+    margin-left: 100px;
+    }   
 }
 /* hero */
 .panel-get-started{
