@@ -32,8 +32,6 @@ section, footer{
     .no-b-margin{
         margin-bottom: 0;
     }
-
-    
 }
 .inline-block{
     display: inline-block;
@@ -101,6 +99,7 @@ a.navbar-brand{
 .navbar-brand>img{
     display: inline-block;
     width: 150px;
+    transform: translateY(-4px);
 }
 nav span.btn-like-signup{
     display: inline-block;
@@ -120,7 +119,6 @@ nav span.btn-like-signup>a{
 .glyphicon-menu-down:before{
     font-size: smaller;
 }
-
 @media all and (min-width: 768px){
     .sm-display{
         font-size: 9px;
